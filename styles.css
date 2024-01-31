@@ -1,0 +1,76 @@
+@keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25%, 75% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+  }
+  body {
+    background-image: url('./1.jpg');
+    background-repeat: no-repeat;
+  
+}
+.heading {
+    text-align: center;
+    font-size: 60px;
+    color: aliceblue;
+    font-family: 'Lilita One';
+    padding-top: 200px;
+    motion-rotation: auto;
+    animation: shake 0.5s ease-in-out infinite;
+}
+p {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Lilita One';
+    font-size: 40px;
+}
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    gap:20px;
+}
+img {
+    height: 200px;
+    width:200px;
+    
+}
+.fruits {
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+}
+.strawberry {
+    background-color: pink;
+    border-radius: 20px;
+    color: white;
+    border: 0ch;
+}
+.banana {
+    background-color: rgb(229, 229, 55);
+    border-radius: 20px;
+    color: white;
+    border: 0ch;
+}
+.grapes {
+    background-color: purple;
+    border-radius: 20px;
+    color: white;
+    border: 0;
+    padding : 20px;
+}
+.hidden {
+    display: none;
+}
+.videos {
+    display: flex;
+    justify-content: center;
+}
